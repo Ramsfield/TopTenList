@@ -31,7 +31,7 @@ void TopTenList::display_backward()
 
 void TopTenList::set_at(int index, Hyperlink link)
 {
-  _list[index] = link;
+  _list[index-1] = link;
 }
 
 Hyperlink TopTenList::get(int index)
